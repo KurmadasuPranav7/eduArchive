@@ -36,7 +36,8 @@ Students often struggle to find previous year question papers while preparing fo
 
 ## 📸 Screenshots
 
-> Include screenshots or GIFs of homepage, search functionality, and login page here.
+![eduArchive_Home](https://github.com/user-attachments/assets/826391fb-4309-49b8-b006-9aa9d99127b1)
+
 
 ---
 
