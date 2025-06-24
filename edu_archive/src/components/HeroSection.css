@@ -1,0 +1,32 @@
+.hero-section {
+    text-align: center;
+    padding: 2em 1em 1.5em 1em;
+  }
+  
+  .hero-title {
+    font-size: 1.7em;
+    margin-bottom: 0.3em;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .hero-tagline {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: -1em
+  }
+  
+  .hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5em;
+    padding-top: 0px;
+  }
+  
+  .hero-image {
+    width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 12px rgba(0,0,0,0.07); */
+  }
+  

@@ -1,0 +1,96 @@
+.header {
+    background: #fff;
+    border-bottom: 0px solid #ececec;
+    padding: 0 2em;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.hello {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.header-title {
+    transition: opacity 0.3s ease;
+}
+
+.animated-title {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.animated-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animated-title.visible + .header-title {
+    opacity: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 2em;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    height: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-links a:hover {
+    color: #2b2b2b;
+}
+
+.login-btn {
+    background:rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6em 1.4em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.login-btn:hover {
+    background: #2b2b2b;
+}
+  

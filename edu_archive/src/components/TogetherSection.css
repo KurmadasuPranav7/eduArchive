@@ -1,0 +1,20 @@
+.together-section {
+    background: #ffffff;
+    padding: 1.5em 1em;
+    border-radius: 10px;
+    margin: 1em 1em 0 1em;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  .together-title {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
+  
+  .together-description {
+    font-size: 1em;
+    color: #444;
+  }
+  

@@ -1,0 +1,77 @@
+.subjects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.subjects-title{
+    font-size: 1.7em;
+    margin-bottom: 0.3em;
+}
+
+.subjects-tagline{
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 2em
+}
+
+.subjects-input{
+    width: 30em;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    text-align: center;
+    color: #000000;
+}
+
+.subjects-button{
+    width: 10em;
+    height: 2.8em;
+    margin-left: 1em;
+}
+
+.subjects-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.subjects-details h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #000000;
+    text-align: center;
+}
+
+.subjects-button-download{
+    width: 10em;
+    height: 2.8em;
+    margin-left: 1em;
+    background-color: rgb(221, 91, 26);
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subjects-button-download:hover{
+    background-color: rgba(221, 91, 26, 0.781);
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}

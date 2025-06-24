@@ -1,0 +1,26 @@
+.signup-counter-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    padding: 1.2em 0.5em;
+    margin: 1.5em auto 1em auto;
+    width: 160px;
+    text-align: center;
+  }
+  
+  .signup-counter-icon {
+    font-size: 2em;
+    margin-bottom: 0.3em; 
+  }
+  
+  .signup-counter-number {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+  }
+  
+  .signup-counter-label {
+    font-size: 0.95em;
+    color: #666;
+  }
+  
